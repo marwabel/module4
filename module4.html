@@ -1,0 +1,19 @@
+// Define an array of names
+var names = ["John", "Jane", "Joe", "Jim"];
+
+// Loop over the names array
+for (var i = 0; i < names.length; i++) {
+
+  // Get the current name
+  var name = names[i];
+
+  // Get the first letter of the current name
+  var firstLetter = name.charAt(0);
+
+  // Check if the first letter is 'j' or 'J'
+  if (firstLetter.toLowerCase() === 'j') {
+    console.log("Goodbye " + name);
+  } else {
+    console.log("Hello " + name);
+  }
+}
